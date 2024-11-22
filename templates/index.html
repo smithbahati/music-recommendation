@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion-Based Music Recommendation</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emotion-Based Music Recommendation</h1>
+    </header>
+    <main>
+        <section class="video-container">
+            <!-- Live video feed -->
+            <img src="{{ url_for('video_feed') }}" alt="Live Video Feed" class="video-feed">
+            <h3 id="emotion-display">Detected Emotion: Waiting...</h3>
+        </section>
+
+        <section class="recommendations">
+            <!-- Recommendations Section -->
+            <h2>Recommendations</h2>
+            <div id="recommendations" class="recommendations-list">
+                <p>No recommendations yet. Please wait...</p>
+            </div>
+        </section>
+    </main>
+
+   
+    
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
