@@ -95,7 +95,7 @@ PyMsgBox==1.0.9
 pynput==1.7.7
 pyparsing==3.2.0
 pyperclip==1.9.0
-pypiwin32
+
 PyRect==0.2.0
 PyScreeze==1.0.1
 python-dateutil==2.9.0.post0
